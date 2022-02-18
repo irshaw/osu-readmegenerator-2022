@@ -1,7 +1,7 @@
 //included packages
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./generateMarkdown.js');
+const generateMarkdown = require('./markdown+tutorial/generateMarkdown.js');
 
 // array for questions
 const questions=[{
@@ -24,11 +24,6 @@ const questions=[{
         type: 'input',
         message: 'description of your project',
         name: 'description',
-      },
-      {
-        type: 'input',
-        message: 'what is your table of contents?',
-        name: 'table of contents',
       },
       {
         type: 'input',
